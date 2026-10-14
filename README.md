@@ -49,7 +49,7 @@ El objetivo de este proyecto es analizar el desempeño comercial de Andes Retail
 
 ---
 
-### 2. 🚀 Proyecto Rappi Plus (NovaRetail+ / Retención & Growth)
+### 2. 🚀 Proyecto (NovaRetail+ / Retención & Growth)
 Este proyecto consiste en un análisis correlacional exploratorio sobre un conjunto de 15,000 registros de clientes de e-commerce. Desarrollado para el equipo de **Growth & Retention**, el estudio evalúa las relaciones entre el comportamiento del usuario, el gasto publicitario y los ingresos anuales generados, con el fin de optimizar la conversión y los programas de fidelización.
 
 * **Herramientas y tipo de proyecto:** `Python` · `Pandas` · `SciPy` · `Seaborn` · `Análisis Exploratorio (EDA)` · `Análisis Correlacional`
@@ -68,17 +68,20 @@ Este proyecto consiste en un análisis correlacional exploratorio sobre un conju
 #### 💡 Conclusiones y recomendaciones
 * **Hallazgos del comportamiento de usuarios:**
   * **Gasto en publicidad vs. Visitas ($r = 0.58$ Pearson / $0.56$ Spearman):** Existe una correlación positiva moderada, confirmando la efectividad de las campañas para atraer tráfico a la plataforma.
-  * **Visitas vs. Compras ($r = 0.35$ Pearson / $0.33$ Spearman):** Mayor frecuencia de acceso genera más oportunidades de compra, aunque la relación no es strictly lineal.
+  * **Visitas vs. Compras ($r = 0.35$ Pearson / $0.33$ Spearman):** Mayor frecuencia de acceso genera más oportunidades de compra, aunque la relación no es estrictamente lineal.
   * **Publicidad vs. Compras ($r = 0.21$ Pearson / $0.19$ Spearman):** La publicidad atrae visitas con éxito, pero tiene un impacto directo menor en la decisión final de compra.
 * **Recomendaciones:**
   * **Optimización del embudo de conversión:** Reorientar esfuerzos de la mera atracción de visitas hacia la conversión dentro de la app (CRO).
   * **Fidelización de usuarios frecuentes:** Crear incentivos para convertir las visitas mensuales recurrentes en suscripciones activas del programa Plus.
 
 #### 📈 Visualizaciones destacadas
-1. **Matriz de correlación de Pearson / Spearman:** Mapa de calor que contrasta la fuerza de asociación entre gasto publicitario, visitas mensuales, frecuencia de compras e ingresos anuales.
-2. **Distribución de visitas vs. compras por segmento:** Gráficos de dispersión y caja que muestran la variación en el comportamiento transaccional según el canal de adquisición.
+1. **Heatmap correlacional (Mapa de Calor):** Matriz visual de intensidad de color que permite identificar de un vistazo la fuerza de asociación lineal (Pearson) y monótona (Spearman) entre inversión en pauta, tráfico, volumen transaccional e ingresos anuales.
+   <img width="1294" height="940" alt="image" src="https://github.com/user-attachments/assets/adc351bd-6074-4c29-95e4-19c1429ec6e9" />
+3. **Scatterplot de dispersión (Publicidad vs. Visitas & Compras):** Gráfico con tendencia y densidad de puntos que ilustra el comportamiento del usuario y la conversión real a medida que aumenta la exposición publicitaria.
+   <img width="1144" height="1122" alt="image" src="https://github.com/user-attachments/assets/043e9d78-90cc-4ef1-a68a-528268b3508b" />
 
 👉 *Explora más detalles del proyecto en el repositorio completo.*
+
 
 ---
 
@@ -107,8 +110,10 @@ Este proyecto evalúa las dinámicas del mercado inmobiliario y la productividad
   * **Ajuste de estrategia de precios:** Establecer precios dinámicos por m² fundamentados en la disponibilidad de servicios y densidad urbana de la zona.
 
 #### 📈 Visualizaciones destacadas
-1. **Mapa de calor de precio por m² por zona:** Visualización espacial que resalta los sectores de mayor valor comercial y oportunidades de inversión.
-2. **Análisis comparativo de absorción y precio:** Gráficos de dispersión que contrastan el valor de mercado con el tiempo de permanencia en inventario.
+1. *Analisis de cohortes:** Visualización numerica que resalta las cohortes de mayor valor comercial y retencion en el tiempo.
+   <img width="1270" height="916" alt="image" src="https://github.com/user-attachments/assets/e3192c13-0c3e-4a27-a79d-3260b1ae8b1e" />
+3. **Tabla con columnas categoricas y numericas:** Tabla que demuestra la variabilidad de los distintos segmentos de clientes, tipo de propiedad y cantidad de ventas.
+   <img width="802" height="358" alt="image" src="https://github.com/user-attachments/assets/52a3ed7d-64ed-4149-9f3c-8d13571d8370" />
 
 👉 *Explora más detalles del proyecto en el repositorio completo.*
 
