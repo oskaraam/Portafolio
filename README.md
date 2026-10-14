@@ -41,7 +41,9 @@ El objetivo de este proyecto es analizar el desempeño comercial de Andes Retail
 
 #### 📈 Visualizaciones destacadas
 1. **Evolución YTD de ingresos y ganancias:** Gráfico de líneas con inteligencia de tiempo que muestra el crecimiento acumulado mes a mes (*Enero $\rightarrow$ Diciembre*) identificando el cambio de tendencia en Q1 y Q4.
-2. **Distribución geográfica por segmento:** Comparativa de rendimiento por país y región que evidencia el impacto diferencial del segmento Premium en el sur.
+   <img width="1684" height="392" alt="image" src="https://github.com/user-attachments/assets/5dccece7-2e6e-4278-a538-8e8292b238c3" />
+3. **Distribución geográfica por segmento:** Comparativa de rendimiento por país y región que evidencia el impacto diferencial del segmento Premium en el sur.
+   <img width="1576" height="342" alt="image" src="https://github.com/user-attachments/assets/f92afd94-3d3e-45bd-9d57-3c052f0ec115" />
 
 👉 *Explora más detalles del proyecto en el repositorio completo.*
 
